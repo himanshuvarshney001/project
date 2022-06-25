@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+       .container{
+        /* border: 4px solid tomato;  */
+            width: 1050px;
+            height: 595px;
+            margin: 80px auto;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            box-sizing: border-box;
+            box-shadow: 
+             rgba(0, 0, 0, 0.25) 0px 54px 55px,
+             rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+             rgba(0, 0, 0, 0.12) 0px 4px 6px,
+             rgba(0, 0, 0, 0.17) 0px 12px 13px,
+             rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       }
+    body{
+        background-color: #ca56f1;
+    }
+    .left
+    {
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        position: absolute;
+        top: 78px;
+        left: 250px;
+        border: none;
+    }
+    .mid{
+        display: block;
+        /* border: 2px solid yellow;  */
+        width: 70%;
+        margin: 20px 425px;
+    }
+    .right
+    {
+        display: inline-block;
+        /* border: 2px solid #ca56f1; */
+        border-radius: 10px;
+        position: absolute;
+        right: 250px;
+        top: 250px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    .navbar li,a{
+        margin-top: 6px;
+        /* border: 2px solid black; */
+        display: inline-block;
+        color: #4f0668;
+        text-decoration: none;
+        padding: 5px 8px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .left img{
+        width: 205px;
+        margin-top: 25px;
+}
+    .button{
+        margin-top: 15px;
+        border: none;
+        background-color: #4f0668;
+        box-shadow: 3px 3px #aaaaaa;
+        border-radius: 8px;
+    }
+    .button a{
+        color: white;
+        text-decoration: none;
+    }
+    .para p{
+        margin-left: 80px;
+        font-size: xx-large;
+        padding: 0px;
+        line-height: 0px;
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        display: inline block;
+    }
+    .th{
+        margin-right: 100px;
+        right: 40px;
+        width: 100%;
+    }
+    .pp p{
+        margin-top: 15px;
+        line-height: 0px;
+        margin-left: 100px;
+        font-size: x-large;
+        font-weight: normal;
+    }
+    .btn{
+        margin-left: 250px;
+        border: none;
+        background-color: #df92f9;
+        box-shadow: 5px 5px #aaaaaa;
+        border-radius: 8px;
+    }
+    .btn a{
+        text-decoration: none;
+    }
+    .bttn{
+        margin-left: 30px;
+        border: none;
+        background-color: #df92f9;
+        box-shadow: 5px 5px #aaaaaa;
+        border-radius: 8px; 
+    }
+    .bttn a{
+        text-decoration: none;
+    }
+    .b{
+        width: 20%;
+        margin-left: 850px;
+    }
+    .navbar li a:hover{
+       background-color: #ca56f1;
+       border-radius: 10px;
+    }
+    /* .navbar ul li a.active{
+        background-color: #ca56f1;
+       border-radius: 10px;
+    } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2DizmvP_bc_4hD3DobqgI8T6pRoNOWGiKyA&usqp=CAU" alt="">
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a class="active" href="portfolio.html">Home</a></li>
+                    <li><a class="active" href="about us.html" >About</a></li>
+                    <li><a class="active" href="projects.html">Projects</a></li>
+                 <li><a  class="active" href="skill.html">Skills</a></li>
+                 <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="right">
+               <img class="th" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmj5b27J-mUY-sNPgVNXf2nQ0Z76rRvXHQ2Q&usqp=CAU" alt="">
+            </div><br><br><br><br>
+            <div class="para">
+                
+                   <p style="color: #4f0668; font-size: xx-large;">&#8254;&#8254;&#8254;&#8254;&#8254;</p>
+                   <p style="color: purple;">
+                    We are Creative and             
+                   </p>
+                   <p> Always ready to gain knowledge </p>
+                   <p style="color:#4f0668"> Do not fear the failure</p><br>
+                   <div class="pp">
+                    <p> In this is website you can see many courses</p>
+                    <p> so  enroll these course without any </p>
+                    <p> fee after completion,provide a certificate</p>
+                   </div>
+                  
+                </div>
+            </header><br><br>
+            <button class="btn">
+                <a href="#"> Contact me</a>
+            </button>
+                <button class="bttn">
+                    <a class="har" href="#"> Browse Portfolio</a>
+                </button>
+                <img  class="b" src="C:\Users\User\Downloads\Himanshu signature (1).png" alt="">
+    </div>
+    
+</body>
+</html>
